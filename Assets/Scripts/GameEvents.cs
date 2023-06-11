@@ -75,13 +75,13 @@ public class GameEvents : MonoBehaviour
         }
     }
 
-    public delegate void BoardCompleted();
-    public static event BoardCompleted OnBoardCompleted;
-    public static void OnBoardCompletedMethod()
+    public delegate void PuzzleCompleted();
+    public static event PuzzleCompleted OnPuzzleCompleted;
+    public static void OnPuzzleCompletedMethod()
     {
-        if (OnBoardCompleted != null)
+        if (OnPuzzleCompleted != null)
         {
-            OnBoardCompleted();
+            OnPuzzleCompleted();
         }
     }
 
@@ -92,6 +92,16 @@ public class GameEvents : MonoBehaviour
         if (OnHintReward != null)
         {
             OnHintReward();
+        }
+    }
+
+    public delegate void CheckAnswer();
+    public static event CheckAnswer OnCheckAnswer;
+    public static void OnCheckAnswerMethod()
+    {
+       if(OnCheckAnswer != null)
+        {
+            OnCheckAnswer();
         }
     }
 }

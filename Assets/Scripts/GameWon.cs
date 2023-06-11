@@ -6,26 +6,24 @@ using UnityEngine.UI;
 public class GameWon : MonoBehaviour
 {
     public GameObject WinPopup;
-    public Text ClockText;
     void Start()
     {
         WinPopup.SetActive(false);
     }
 
-    private void OnBoardCompleted()
+    private void OnPuzzleCompleted()
     {
         WinPopup.SetActive(true);
         GameEvents.OnGameOverMethod();
-        ClockText.text = Clock.ins.GetCurrentTimeText().text;
     }
 
     private void OnEnable()
     {
-        GameEvents.OnBoardCompleted += OnBoardCompleted;
+        GameEvents.OnPuzzleCompleted += OnPuzzleCompleted;
     }
     private void OnDisable()
     {
-        GameEvents.OnBoardCompleted -= OnBoardCompleted;
+        GameEvents.OnPuzzleCompleted -= OnPuzzleCompleted;
     }
 
 }
