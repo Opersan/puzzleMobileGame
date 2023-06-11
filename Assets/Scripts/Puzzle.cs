@@ -48,7 +48,6 @@ public class Puzzle : MonoBehaviour
     {
         storyTextElement.text = "";
         int storyID = UnityEngine.Random.Range(0, PuzzleData.ins.puzzleStory_data.Count);
-        Debug.Log(storyID);
         foreach (PuzzleData.PuzzleStoryData puzzleData in data)
         {
             if (puzzleData.storyID == storyID)
@@ -56,8 +55,8 @@ public class Puzzle : MonoBehaviour
                 storyTextElement.text = puzzleData.story;
                 this.answer = puzzleData.answer;
                 storyBackgroundImage.sprite = Resources.Load<Sprite>("StoryBackgrounds/" + puzzleData.storyBackgroundImage);
-                //backgroundImage.color = puzzleData.color;
-                Debug.Log(puzzleData.answer);
+                backgroundImage.color = puzzleData.color;
+                Debug.Log(puzzleData.color);
             }
         }
     }

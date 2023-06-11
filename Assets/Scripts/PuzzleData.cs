@@ -16,7 +16,7 @@ public class PuzzleStoryEasyData : MonoBehaviour
         int sayi4 = 12;
         int sayi5 = 120;
         int cevap = (sayi1 + sayi2 + sayi3) - sayi2 - sayi5;
-        Color renk = Color.black;
+        Color32 renk = new Color32(95, 202, 246, 255);
         data.Add(new PuzzleData.PuzzleStoryData(0, "Bir tren " +  sehir1 +
             sehir2 + "gidiyor. Yolda " + sehir3 + "ve " + sehir4 + "duruyor. " + 
             sehir1 + "hareket ederken trende " + sayi1 + " yolcu vardý. " + "Arifiye" + "'de bazý yolcular " + 
@@ -24,7 +24,7 @@ public class PuzzleStoryEasyData : MonoBehaviour
             sayi4 + " kiþi trenden indi. Tren " + "Ankara" + "'ya vardýðýnda, içinde " + sayi5 + " yolcu olduðunda göre " + sehir3 + 
             "trenden kaç kiþi inmiþtir?", cevap, "a", renk));
         sehir1 = "Elazýð'dan ";
-        sehir2 = "Malatya'ya ";
+        sehir2 = "Malatya'ya "; 
         sehir3 = "Sürsürü'de ";
         sehir4 = "Hekimhan'da ";
         sayi1 = 88;
@@ -33,7 +33,7 @@ public class PuzzleStoryEasyData : MonoBehaviour
         sayi4 = 12;
         sayi5 = 120;
         cevap = (sayi1 + sayi2 + sayi3) - sayi2 - sayi5;
-        renk = Color.black;
+        renk = new Color32(123, 192, 231, 255);
         data.Add(new PuzzleData.PuzzleStoryData(1, "Bir tren " + sehir1 +
             sehir2 + "gidiyor. Yolda " + sehir3 + "ve " + sehir4 + "duruyor. " +
             sehir1 + "hareket ederken trende " + sayi1 + " yolcu vardý. " + "Arifiye" + "'de bazý yolcular " +
@@ -50,7 +50,7 @@ public class PuzzleStoryEasyData : MonoBehaviour
         sayi4 = 12;
         sayi5 = 120;
         cevap = (sayi1 + sayi2 + sayi3) - sayi2 - sayi5;
-        renk = Color.black;
+        renk = new Color32(152, 226, 234, 255);
         data.Add(new PuzzleData.PuzzleStoryData(2, "Bir tren " + sehir1 +
             sehir2 + "gidiyor. Yolda " + sehir3 + "ve " + sehir4 + "duruyor. " +
             sehir1 + "hareket ederken trende " + sayi1 + " yolcu vardý. " + "Arifiye" + "'de bazý yolcular " +
@@ -67,7 +67,7 @@ public class PuzzleStoryEasyData : MonoBehaviour
         sayi4 = 12;
         sayi5 = 120;
         cevap = (sayi1 + sayi2 + sayi3) - sayi2 - sayi5;
-        renk = Color.black;
+        renk = new Color32(142, 49, 49, 255);
         data.Add(new PuzzleData.PuzzleStoryData(3, "Bir tren " + sehir1 +
             sehir2 + "gidiyor. Yolda " + sehir3 + "ve " + sehir4 + "duruyor. " +
             sehir1 + "hareket ederken trende " + sayi1 + " yolcu vardý. " + "Arifiye" + "'de bazý yolcular " +
@@ -84,7 +84,7 @@ public class PuzzleStoryEasyData : MonoBehaviour
         sayi4 = 12;
         sayi5 = 120;
         cevap = (sayi1 + sayi2 + sayi3) - sayi2 - sayi5;
-        renk = Color.black;
+        renk = new Color32(240, 201, 158, 255);
         data.Add(new PuzzleData.PuzzleStoryData(4, "Bir tren " + sehir1 +
             sehir2 + "gidiyor. Yolda " + sehir3 + "ve " + sehir4 + "duruyor. " +
             sehir1 + "hareket ederken trende " + sayi1 + " yolcu vardý. " + "Arifiye" + "'de bazý yolcular " +
@@ -101,7 +101,7 @@ public class PuzzleStoryEasyData : MonoBehaviour
         sayi4 = 12;
         sayi5 = 120;
         cevap = (sayi1 + sayi2 + sayi3) - sayi2 - sayi5;
-        renk = Color.black;
+        renk = new Color32(12, 128, 187, 255);
         data.Add(new PuzzleData.PuzzleStoryData(5, "Bir tren " + sehir1 +
             sehir2 + "gidiyor. Yolda " + sehir3 + "ve " + sehir4 + "duruyor. " +
             sehir1 + "hareket ederken trende " + sayi1 + " yolcu vardý. " + "Arifiye" + "'de bazý yolcular " +
@@ -118,13 +118,13 @@ public class PuzzleStoryEasyData : MonoBehaviour
         sayi4 = 12;
         sayi5 = 120;
         cevap = (sayi1 + sayi2 + sayi3) - sayi2 - sayi5;
-        renk = Color.black;
+        renk = new Color32(123, 192, 231, 255);
         data.Add(new PuzzleData.PuzzleStoryData(6, "Bir tren " + sehir1 +
             sehir2 + "gidiyor. Yolda " + sehir3 + "ve " + sehir4 + "duruyor. " +
             sehir1 + "hareket ederken trende " + sayi1 + " yolcu vardý. " + "Arifiye" + "'de bazý yolcular " +
             "trenden indi, " + sayi2 + " yolcu trene bindi. " + sehir4 + sayi3 + " kiþi daha trene bindi, " +
             sayi4 + " kiþi trenden indi. Tren " + "Ankara" + "'ya vardýðýnda, içinde " + sayi5 + " yolcu olduðunda göre " + sehir3 +
-            "trenden kaç kiþi inmiþtir?", cevap, "d", renk));
+            "trenden kaç kiþi inmiþtir?", cevap, "g", renk));
         sehir1 = "Kýrýkkale'den ";
         sehir2 = "Giresun'na ";
         sehir3 = "Bulancak'da ";
@@ -135,13 +135,13 @@ public class PuzzleStoryEasyData : MonoBehaviour
         sayi4 = 12;
         sayi5 = 120;
         cevap = (sayi1 + sayi2 + sayi3) - sayi2 - sayi5;
-        renk = Color.black;
+        renk = Color.white;
         data.Add(new PuzzleData.PuzzleStoryData(7, "Bir tren " + sehir1 +
             sehir2 + "gidiyor. Yolda " + sehir3 + "ve " + sehir4 + "duruyor. " +
             sehir1 + "hareket ederken trende " + sayi1 + " yolcu vardý. " + "Arifiye" + "'de bazý yolcular " +
             "trenden indi, " + sayi2 + " yolcu trene bindi. " + sehir4 + sayi3 + " kiþi daha trene bindi, " +
             sayi4 + " kiþi trenden indi. Tren " + "Ankara" + "'ya vardýðýnda, içinde " + sayi5 + " yolcu olduðunda göre " + sehir3 +
-            "trenden kaç kiþi inmiþtir?", cevap, "f", renk));
+            "trenden kaç kiþi inmiþtir?", cevap, "h", renk));
         sehir1 = "Ordu'dan ";
         sehir2 = "Hataya'ya ";
         sehir3 = "Elazýð'da ";
@@ -152,13 +152,13 @@ public class PuzzleStoryEasyData : MonoBehaviour
         sayi4 = 12;
         sayi5 = 120;
         cevap = (sayi1 + sayi2 + sayi3) - sayi2 - sayi5;
-        renk = Color.black;
+        renk = Color.white;
         data.Add(new PuzzleData.PuzzleStoryData(8, "Bir tren " + sehir1 +
             sehir2 + "gidiyor. Yolda " + sehir3 + "ve " + sehir4 + "duruyor. " +
             sehir1 + "hareket ederken trende " + sayi1 + " yolcu vardý. " + "Arifiye" + "'de bazý yolcular " +
             "trenden indi, " + sayi2 + " yolcu trene bindi. " + sehir4 + sayi3 + " kiþi daha trene bindi, " +
             sayi4 + " kiþi trenden indi. Tren " + "Ankara" + "'ya vardýðýnda, içinde " + sayi5 + " yolcu olduðunda göre " + sehir3 +
-            "trenden kaç kiþi inmiþtir?", cevap, "a", renk));
+            "trenden kaç kiþi inmiþtir?", cevap, "j", renk));
         sehir1 = "Hatay'dan ";
         sehir2 = "Tekirdað'ya ";
         sehir3 = "Ýskenderun'da ";
@@ -169,13 +169,13 @@ public class PuzzleStoryEasyData : MonoBehaviour
         sayi4 = 12;
         sayi5 = 120;
         cevap = (sayi1 + sayi2 + sayi3) - sayi2 - sayi5;
-        renk = Color.black;
+        renk = new Color32(12, 128, 187, 255);
         data.Add(new PuzzleData.PuzzleStoryData(9, "Bir tren " + sehir1 +
             sehir2 + "gidiyor. Yolda " + sehir3 + "ve " + sehir4 + "duruyor. " +
             sehir1 + "hareket ederken trende " + sayi1 + " yolcu vardý. " + "Arifiye" + "'de bazý yolcular " +
             "trenden indi, " + sayi2 + " yolcu trene bindi. " + sehir4 + sayi3 + " kiþi daha trene bindi, " +
             sayi4 + " kiþi trenden indi. Tren " + "Ankara" + "'ya vardýðýnda, içinde " + sayi5 + " yolcu olduðunda göre " + sehir3 +
-            "trenden kaç kiþi inmiþtir?", cevap, "b", renk));
+            "trenden kaç kiþi inmiþtir?", cevap, "f", renk));
         sehir1 = "Tekirdað'dan ";
         sehir2 = "Erzurum'a ";
         sehir3 = "Ankara'da ";
@@ -186,13 +186,13 @@ public class PuzzleStoryEasyData : MonoBehaviour
         sayi4 = 12;
         sayi5 = 120;
         cevap = (sayi1 + sayi2 + sayi3) - sayi2 - sayi5;
-        renk = Color.black;
+        renk = new Color32  (240, 201, 158, 255);
         data.Add(new PuzzleData.PuzzleStoryData(10, "Bir tren " + sehir1 +
             sehir2 + "gidiyor. Yolda " + sehir3 + "ve " + sehir4 + "duruyor. " +
             sehir1 + "hareket ederken trende " + sayi1 + " yolcu vardý. " + "Arifiye" + "'de bazý yolcular " +
             "trenden indi, " + sayi2 + " yolcu trene bindi. " + sehir4 + sayi3 + " kiþi daha trene bindi, " +
             sayi4 + " kiþi trenden indi. Tren " + "Ankara" + "'ya vardýðýnda, içinde " + sayi5 + " yolcu olduðunda göre " + sehir3 +
-            "trenden kaç kiþi inmiþtir?", cevap, "c", renk));
+            "trenden kaç kiþi inmiþtir?", cevap, "e", renk));
 
 
         return data;
